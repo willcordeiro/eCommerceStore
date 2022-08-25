@@ -1,0 +1,38 @@
+.dCord-container {
+  min-width: 100px;
+  min-height: 200px;
+}
+
+.img-center {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-container-dCord {
+  display: grid;
+}
+
+@media (min-width: 960px) {
+  .grid-container-dCord {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .grid-container-dCord {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  .grid-container-dCord {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
