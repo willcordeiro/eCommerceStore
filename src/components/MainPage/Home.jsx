@@ -1,11 +1,17 @@
 import React from "react";
+import "./Home.css";
+import SliderHome from "./Slider";
 
-function Home() {
+const Home = () => {
   return (
     <>
-      <h1>Home</h1>
+      <section className="home">
+        <div className="container d_flex">
+          <SliderHome />
+        </div>
+      </section>
     </>
   );
-}
+};
 
 export default Home;
