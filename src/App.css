@@ -231,10 +231,3 @@ button {
   text-align: right;
   color: grey;
 }
-/*----- heading -------*/
-
-.grid2 {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
-}
