@@ -1,53 +1,52 @@
-import React from "react"
-
+import React from "react";
+import { BiJoystick } from "react-icons/bi";
 const Catg = () => {
   const data = [
     {
-      cateImg: "./images/category/cat-1.png",
+      cateImg: <BiJoystick />,
       cateName: "Apple",
     },
     {
-      cateImg: "./images/category/cat-2.png",
-      cateName: "Samasung",
+      cateImg: <BiJoystick />,
+      cateName: "Samsung",
     },
     {
-      cateImg: "./images/category/cat-1.png",
+      cateImg: <BiJoystick />,
       cateName: "Oppo",
     },
     {
-      cateImg: "./images/category/cat-2.png",
+      cateImg: <BiJoystick />,
       cateName: "Vivo",
     },
     {
-      cateImg: "./images/category/cat-1.png",
+      cateImg: <BiJoystick />,
       cateName: "Redimi",
     },
     {
-      cateImg: "./images/category/cat-2.png",
+      cateImg: <BiJoystick />,
       cateName: "Sony",
     },
-  ]
+  ];
   return (
     <>
-      <div className='category'>
-        <div className='chead d_flex'>
-          <h1>Brands </h1>
-          <h1>Shops </h1>
+      <div className="category">
+        <div className="chead d_flex">
+          <h1>Brands</h1>
         </div>
         {data.map((value, index) => {
           return (
-            <div className='box f_flex' key={index}>
-              <img src={value.cateImg} alt='' />
-              <span>{value.cateName}</span>
+            <div className="box f_flex " key={index}>
+              <span className="cateIcon">{value.cateImg}</span>
+              <span className="cateName">{value.cateName}</span>
             </div>
-          )
+          );
         })}
-        <div className='box box2'>
-          <button>View All Brands</button>
+        <div className="box box2 buttonBrand">
+          <button className=" buttonBrand">View All Brands</button>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Catg
+export default Catg;
