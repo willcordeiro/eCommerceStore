@@ -27,3 +27,7 @@
   left: 0;
   margin: auto;
 }
+
+.overflow {
+  overflow: hidden;
+}

@@ -31,7 +31,7 @@ const FlashCard = ({ productItems, addToCart }) => {
   const settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
     nextArrow: <SampleNextArrow />,
@@ -43,11 +43,15 @@ const FlashCard = ({ productItems, addToCart }) => {
       <Slider {...settings}>
         {productItems.map((productItems) => {
           return (
-            <div className="box grid-container">
+            <div className="box center grid-container">
               <div className="product mtop grid-col-container">
-                <div className="img">
+                <div>
                   <span className="discount">{productItems.discount}% Off</span>
-                  <img src={productItems.cover} alt="" />
+                  <img
+                    src={productItems.cover}
+                    alt=""
+                    className="img-center "
+                  />
                   <div className="product-like">
                     <label>{count}</label> <br />
                     <i className="fa-regular fa-heart" onClick={increment}></i>
