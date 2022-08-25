@@ -11,6 +11,7 @@
   margin-right: 30px;
   font-size: 13px;
 }
+
 /*------head-----------*/
 /*------search-----------*/
 .search {
@@ -20,20 +21,15 @@
   width: auto;
   height: auto;
 }
-.search .width {
-  width: 20%;
-}
+
 .search-box {
-  width: 80%;
+  width: 100%;
   border: 2px solid rgba(0, 0, 0, 0.1);
-  /*padding: 10px;*/
   border-radius: 50px;
 }
 .search-box i {
-  width: 5%;
   text-align: center;
   font-size: 20px;
-  opacity: 0.5;
   padding: 15px 20px;
   font-size: 17px;
 }
@@ -44,12 +40,7 @@
 ::placeholder {
   font-size: 15px;
 }
-.search-box span {
-  width: 20%;
-  opacity: 0.5;
-  border-left: 2px solid rgba(0, 0, 0, 0.1);
-  padding: 10px;
-}
+
 .cart {
   position: relative;
 }
@@ -75,6 +66,7 @@
 
 .toggle {
   font-size: 30px;
+  cursor: pointer;
 }
 
 .categories h4 {
@@ -113,8 +105,11 @@ header ul li a:hover {
   z-index: 1000;
   width: 100%;
   background-color: #fff;
-  box-shadow: -1px 11px 24px -11px rgba(0, 0, 0, 0.2);
   transition: 0.5s;
+}
+
+.search-Bar {
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
@@ -186,10 +181,17 @@ header ul li a:hover {
 .navlink {
   background-color: white;
   z-index: 1000;
-
-  width: 50%;
+  width: 100%;
 }
 
 .shadowBox {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.none {
+  display: none;
+}
+
+.search-box {
+  display: none;
 }
