@@ -8,7 +8,7 @@ const TopCart = () => {
   const settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
   };
@@ -18,12 +18,12 @@ const TopCart = () => {
         {Tdata.map((value, index) => {
           return (
             <>
-              <div className="box product " key={index}>
+              <div className="box product topCart-container" key={index}>
                 <div className="nametop d_flex product-col">
                   <span className="tleft">{value.para}</span>
                 </div>
                 <div className="img">
-                  <img src={value.cover} alt="" />
+                  <img src={value.cover} alt="" className="img-center" />
                 </div>
               </div>
             </>

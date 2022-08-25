@@ -33,3 +33,16 @@
 .product {
   min-width: 100px;
 }
+
+.topCart-container {
+  min-height: 100px;
+}
+
+.img-center {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
