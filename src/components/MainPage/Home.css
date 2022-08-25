@@ -28,6 +28,9 @@
   margin: auto;
 }
 
-.overflow {
-  overflow: hidden;
+.slide-center {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
 }
