@@ -195,3 +195,9 @@ header ul li a:hover {
 .search-box {
   display: none;
 }
+
+.logo {
+  font-size: 30px;
+  color: #e94560;
+  font-weight: bold;
+}

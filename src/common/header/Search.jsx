@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import logo from "../../components/assets/images/logo.svg";
 import { Link } from "react-router-dom";
-
+import { HiFire } from "react-icons/hi";
 const Search = ({ CartItem }) => {
   // fixed Header
   window.addEventListener("scroll", function () {
@@ -16,7 +16,8 @@ const Search = ({ CartItem }) => {
       <section className="search">
         <div className="container c_flex">
           <div className={searchBar ? "logo width none" : "logo width"}>
-            <img src={logo} alt="" />
+            <HiFire className="logo" />
+            CW
           </div>
 
           <div

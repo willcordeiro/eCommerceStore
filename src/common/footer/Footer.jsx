@@ -1,13 +1,14 @@
 import React from "react";
 import "./style.css";
-
+import { HiFire } from "react-icons/hi";
 const Footer = () => {
   return (
     <>
       <footer>
         <div className="container grid-footer-container">
           <div className="box margin-footer">
-            <h1>Bonik</h1>
+            <HiFire className="logo" />
+            <span className="logo">CW</span>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
               libero id et, in gravida. Sit diam duis mauris nulla cursus. Erat
