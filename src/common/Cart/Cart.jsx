@@ -12,7 +12,7 @@ const Cart = ({ CartItem, addToCart, decreaseQty }) => {
   return (
     <>
       <section className="cart-items">
-        <div className="container d_flex">
+        <div className="container iba">
           {/* if hamro cart ma kunai pani item xaina bhane no diplay */}
 
           <div className="cart-details">
@@ -38,24 +38,20 @@ const Cart = ({ CartItem, addToCart, decreaseQty }) => {
                   </div>
 
                   <div className="cart-items-function">
-                    <div className="removeCart">
-                      <button className="removeCart">
-                        <i className="fa-solid fa-xmark"></i>
-                      </button>
-                    </div>
+                    <div className="removeCart"></div>
                     {/* stpe: 5 
                     product ko qty lai inc ra des garne
                     */}
 
                     <div className="cartControl d_flex">
                       <button
-                        className="incCart"
+                        className="incCart pointer"
                         onClick={() => addToCart(item)}
                       >
                         <i className="fa-solid fa-plus"></i>
                       </button>
                       <button
-                        className="desCart"
+                        className="desCart pointer"
                         onClick={() => decreaseQty(item)}
                       >
                         <i className="fa-solid fa-minus"></i>
@@ -68,13 +64,12 @@ const Cart = ({ CartItem, addToCart, decreaseQty }) => {
               );
             })}
           </div>
-        </div>
-
-        <div className="cart-total product">
-          <h2>Cart Summary</h2>
-          <div className=" d_flex">
-            <h4>Total Price :</h4>
-            <h3>${totalPrice}.00</h3>
+          <div className="cart-total product">
+            <h2>Cart Summary</h2>
+            <div className=" d_flex">
+              <h4>Total Price :</h4>
+              <h3>${totalPrice}.00</h3>
+            </div>
           </div>
         </div>
       </section>
