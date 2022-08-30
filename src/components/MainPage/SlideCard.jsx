@@ -25,6 +25,7 @@ const SlideCard = () => {
       );
     },
   };
+
   return (
     <>
       <Slider {...settings}>
