@@ -29,12 +29,12 @@ const Search = ({ CartItem }) => {
 
           <div className="icon f_flex width">
             <div className="search-Bar" onClick={() => setSeachbar(!searchBar)}>
-              <i className="fa fa-search icon-circle"></i>
+              <i className="fa fa-search icon-circle hover-navbar-icons"></i>
             </div>
-            <i className="fa fa-user icon-circle"></i>
+            <i className="fa fa-user icon-circle hover-navbar-icons"></i>
             <div className="cart">
               <Link to="/cart">
-                <i className="fa fa-shopping-bag icon-circle"></i>
+                <i className="fa fa-shopping-bag icon-circle hover-navbar-icons"></i>
                 <span>{CartItem.length === 0 ? "" : CartItem.length}</span>
               </Link>
             </div>

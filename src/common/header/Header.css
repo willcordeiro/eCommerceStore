@@ -1,6 +1,6 @@
 /*------head-----------*/
 .head {
-  background-color: #0f3460;
+  background-color: #2b2b2c;
   padding: 10px 0;
   color: #fff;
 }
@@ -91,7 +91,12 @@ header ul li a {
   font-weight: 400;
 }
 header ul li a:hover {
-  opacity: 0.5;
+  color: #2b2b2c;
+}
+
+.hover-navbar-icons:hover {
+  background-color: #2b2b2c;
+  color: white;
 }
 
 .open {
