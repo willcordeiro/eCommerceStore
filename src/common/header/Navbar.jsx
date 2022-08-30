@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <>
       <header className="header">
-        <div className="d_flex container-navbar">
+        <div className="d_flex container-navbar container">
           <div className="categories d_flex">
             <span className="toggle" onClick={() => setMobileMenu(!MobileMenu)}>
               {MobileMenu ? <AiFillCloseCircle /> : <AiOutlineMenu />}

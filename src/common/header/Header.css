@@ -1,7 +1,7 @@
 /*------head-----------*/
 .head {
-  background-color: #2b2b2c;
-  padding: 10px 0;
+  background-color: #232f3e;
+  padding: 7px 0;
   color: #fff;
 }
 .head i {
@@ -76,22 +76,18 @@
   margin-left: 10px;
 }
 header {
-  height: 8vh;
   box-shadow: -1px 15px 17px -8px rgba(0, 0, 0, 0.1);
 }
-header ul {
-  line-height: 8vh;
-}
+
 header ul li {
   margin-left: 30px;
 }
 header ul li a {
-  transition: 0.5s;
   font-size: 15px;
   font-weight: 400;
 }
 header ul li a:hover {
-  color: #2b2b2c;
+  color: #96969c;
 }
 
 .hover-navbar-icons:hover {
@@ -103,7 +99,7 @@ header ul li a:hover {
   display: none;
 }
 .search.active {
-  height: 10vh;
+  height: 9vh;
   position: fixed;
   top: 0;
   z-index: 1000;
@@ -112,7 +108,7 @@ header ul li a:hover {
   transition: 0.5s;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-  background-color: #e7744a;
+  background-color: #131921;
 }
 
 .search-Bar {
@@ -212,11 +208,11 @@ header ul li a:hover {
 .container-header {
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-  background-color: #e7744a;
+  background-color: #131921;
 }
 
 .container-navbar {
-  background-color: #e7744a;
+  background-color: #131921;
   color: white;
 }
 
