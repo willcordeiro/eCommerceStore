@@ -16,7 +16,6 @@ const SlideCard = () => {
         <div
           style={{
             margin: "0px",
-            backgroundColor: "#ddd",
             borderRadius: "10px",
             margintop: "20px",
           }}

@@ -9,14 +9,14 @@ const Navbar = () => {
   return (
     <>
       <header className="header">
-        <div className="container d_flex">
-          <div className="categories d_flex ">
+        <div className="d_flex container-navbar">
+          <div className="categories d_flex">
             <span className="toggle" onClick={() => setMobileMenu(!MobileMenu)}>
               {MobileMenu ? <AiFillCloseCircle /> : <AiOutlineMenu />}
             </span>
           </div>
 
-          <div className="navlink">
+          <div className="navlink container-navbar">
             <ul
               className={
                 MobileMenu
@@ -27,22 +27,34 @@ const Navbar = () => {
             >
               {/*<ul className='link f_flex uppercase {MobileMenu ? "nav-links-MobileMenu" : "nav-links"} onClick={() => setMobileMenu(false)}'>*/}
               <li>
-                <Link to="/">home</Link>
+                <Link to="/" className="navlink-color">
+                  home
+                </Link>
               </li>
               <li>
-                <Link to="/pages">pages</Link>
+                <Link to="/" className="navlink-color">
+                  pages
+                </Link>
               </li>
               <li>
-                <Link to="/user">user account</Link>
+                <Link to="/" className="navlink-color">
+                  user account
+                </Link>
               </li>
               <li>
-                <Link to="/vendor">vendor account</Link>
+                <Link to="/" className="navlink-color">
+                  vendor account
+                </Link>
               </li>
               <li>
-                <Link to="/track">track my order</Link>
+                <Link to="/" className="navlink-color">
+                  track my order
+                </Link>
               </li>
               <li>
-                <Link to="/contact">contact</Link>
+                <Link to="/" className="navlink-color">
+                  contact
+                </Link>
               </li>
             </ul>
           </div>
