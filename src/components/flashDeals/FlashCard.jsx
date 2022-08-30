@@ -3,12 +3,14 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./style.css";
+import { RiArrowLeftCircleFill, RiArrowRightCircleFill } from "react-icons/ri";
+
 const SampleNextArrow = (props) => {
   const { onClick } = props;
   return (
     <div className="control-btn" onClick={onClick}>
       <button className="next">
-        <i className="fa fa-long-arrow-alt-right"></i>
+        <RiArrowRightCircleFill className="arrow-icons" />
       </button>
     </div>
   );
@@ -18,7 +20,7 @@ const SamplePrevArrow = (props) => {
   return (
     <div className="control-btn" onClick={onClick}>
       <button className="prev">
-        <i className="fa fa-long-arrow-alt-left"></i>
+        <RiArrowLeftCircleFill className="arrow-icons" />
       </button>
     </div>
   );

@@ -194,7 +194,7 @@ button {
   width: 50px;
   height: 50px;
   line-height: 60px;
-  background: #0f3460;
+  background: black;
   border-radius: 50%;
   transform: 0.5s;
   z-index: 5;
@@ -213,7 +213,7 @@ button {
 }
 .control-btn .prev:hover,
 .control-btn .next:hover {
-  background: #e94560;
+  opacity: 80%;
   color: white;
   cursor: pointer;
 }

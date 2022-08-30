@@ -32,6 +32,8 @@
 }
 .search-box input {
   width: 100%;
+  padding: 10px;
+  border-radius: 5px;
 }
 ::placeholder {
   font-size: 15px;
