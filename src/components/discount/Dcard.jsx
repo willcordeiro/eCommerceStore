@@ -21,7 +21,7 @@ const Dcard = () => {
           return (
             <>
               <div className=" grid-container-dCord dCord-container">
-                <div className="product " key={index}>
+                <div className="product container-discounts " key={index}>
                   <div className="img">
                     <img src={value.cover} alt="" className="img-center" />
                   </div>
