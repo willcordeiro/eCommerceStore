@@ -9,7 +9,7 @@ This is my ecommerce project, i created and added responsiveness to mobile devic
 
 Connect with me at [LinkedIn](https://www.linkedin.com/in/william-cordeiro-568229238/)
 
-You can access the website of this project at [eCommerceStore]()
+You can access the website of this project at [eCommerceStore](https://willcordeiro.github.io/eCommerceStore/)
 
 
 ### what you need to have to run this project
