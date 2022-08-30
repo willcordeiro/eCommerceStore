@@ -15,14 +15,11 @@
   background-color: #f6f9fc;
   margin: 15px 0;
   padding: 5px 10px;
-  transition: 0.5s;
   border-radius: 5px;
 }
 
 .shop .category .box:hover {
   background-color: #fff;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
-    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
 }
 .shop .box2 {
   margin-top: 100px !important;
@@ -43,18 +40,23 @@
   width: 100%;
   height: 100%;
 }
-.shop .product {
-  transition: 0.5s;
-}
+
 .shop .product:hover {
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
-    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .container-shop {
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   cursor: pointer;
+  max-width: 300px;
+}
+
+@media (min-width: 768px) {
+  .Shop-Grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+  }
 }
 
 @media (min-width: 960px) {
