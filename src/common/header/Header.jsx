@@ -7,9 +7,11 @@ import Navbar from "./Navbar";
 const Header = ({ CartItem }) => {
   return (
     <>
-      <Head />
-      <Search CartItem={CartItem} />
-      <Navbar />
+      <div className="container-header">
+        <Head />
+        <Search CartItem={CartItem} />
+        <Navbar />
+      </div>
     </>
   );
 };

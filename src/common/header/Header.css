@@ -12,8 +12,6 @@
   font-size: 13px;
 }
 
-/*------head-----------*/
-/*------search-----------*/
 .search {
   padding: 20px 0;
 }
@@ -99,13 +97,15 @@ header ul li a:hover {
   display: none;
 }
 .search.active {
-  height: 12vh;
+  height: 10vh;
   position: fixed;
   top: 0;
   z-index: 1000;
   width: 100%;
   background-color: #fff;
   transition: 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
 .search-Bar {
@@ -200,4 +200,9 @@ header ul li a:hover {
   font-size: 30px;
   color: #e94560;
   font-weight: bold;
+}
+
+.container-header {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
