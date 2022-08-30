@@ -11,6 +11,26 @@ const TopCart = () => {
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
   return (
     <>
@@ -18,7 +38,10 @@ const TopCart = () => {
         {Tdata.map((value, index) => {
           return (
             <>
-              <div className="box product topCart-container" key={index}>
+              <div
+                className="box product product-top-categories  topCart-container"
+                key={index}
+              >
                 <div className="nametop d_flex product-col">
                   <span className="tleft">{value.para}</span>
                 </div>

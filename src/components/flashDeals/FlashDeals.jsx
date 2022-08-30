@@ -6,7 +6,7 @@ const FlashDeals = ({ productItems, addToCart }) => {
   return (
     <>
       <section className="flash ">
-        <div className="container">
+        <div className="container-main-flashdeals">
           <div className=" f_flex">
             <i className="fa fa-bolt"></i>
             <h1>Flash Deals</h1>
