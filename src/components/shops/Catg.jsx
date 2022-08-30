@@ -35,14 +35,14 @@ const Catg = () => {
         </div>
         {data.map((value, index) => {
           return (
-            <div className="box f_flex " key={index}>
+            <div className="box f_flex category-container" key={index}>
               <span className="cateIcon">{value.cateImg}</span>
               <span className="cateName">{value.cateName}</span>
             </div>
           );
         })}
-        <div className="box box2 buttonBrand">
-          <button className=" buttonBrand">View All Brands</button>
+        <div className="box box2 buttonBrand category-container">
+          <button className="buttonBrand">View All Brands</button>
         </div>
       </div>
     </>
